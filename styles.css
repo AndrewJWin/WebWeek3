@@ -1,0 +1,9 @@
+#real-alert {
+    display: block;
+    border: outset;
+    border-color: red;
+}
+
+#test-only {
+    color: green;
+}
