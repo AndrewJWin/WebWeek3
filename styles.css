@@ -1,9 +1,23 @@
 #real-alert {
     display: block;
     border: outset;
-    border-color: red;
+}
+
+#real-alert:hover {
+  border-bottom: 1px solid;
+  background: red;
+  color: black;
 }
 
 #test-only {
-    color: green;
+    display: block;
+    border: inset;
+    color: black;
 }
+
+#test-only:hover {
+    border-bottom: 1px solid;
+    background: green;
+    color: white;
+  }
+  
